@@ -6,17 +6,16 @@
   :memo: "A tinta mais fraca..." Já sabem o resto, né? :nerd_face:
 </h4>
 
-<a href="https://github.com/Raphael-GC/Skylab_JS/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/Raphael-GC/Skylab_JS?style=social">
-</a>
-
-<a href="https://github.com/Raphael-GC/Skylab_JS/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Raphael-GC/Skylab_JS">
-</a>
-
-<img alt="Repository size" src="https://img.shields.io/github/repo-size/Raphael-GC/Skylab_JS">
-
-<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Raphael-GC/Skylab_JS?color=%27072009">
+<p align="center">
+    <a href="https://github.com/Raphael-GC/Skylab_JS/stargazers">
+        <img alt="Stargazers" src="https://img.shields.io/github/stars/Raphael-GC/Skylab_JS?style=social">
+    </a>
+    <a href="https://github.com/Raphael-GC/Skylab_JS/commits/master">
+        <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Raphael-GC/Skylab_JS">
+    </a>
+    <img alt="Repository size" src="https://img.shields.io/github/repo-size/Raphael-GC/Skylab_JS">
+    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Raphael-GC/Skylab_JS?color=%27072009">
+</p>
 
 <p align="center">
   <a href="#bulb-a-ideia">A Ideia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -32,7 +31,7 @@
 
 Decidi registrar todas as minhas dúvidas e lições aprendidas durante o curso, no intuito de mensurar a curva de aprendizado obtida.
 
-## :ballon: Git
+## :balloon: Git
 
 ```bash
 # Como criar e subir um repositório para o github pelo terminal.
