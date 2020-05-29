@@ -71,18 +71,10 @@ ________________________________________________________________________________
 **Aula 06 - Condicionais**:
 
 - If, Else If e Else
-<h2 align="center">
-    <img alt="if_else-if_else" title="if_else-if_else" src=".github/Aula.06_if_else-if_else.png" width="200px" />
-</h2>
-
-[//]: <> (![if_else-if_else](.github/Aula.06_if_else-if_else.png) -> Este é o método Pandoc de inserir imagens em MD.)
+<img alt="if_else-if_else" title="if_else-if_else" src=".github/Aula.06_if_else-if_else.png" width="200px"/>
 
 - Switch
-<h2 align="center">
-    <img alt="switch" title="switch" src=".github/Aula.06_switch.png" width="200px" />
-</h2>
-
-[//]: <> (![switch](.github/Aula.06_switch.png) -> Este é o método Pandoc de inserir imagens em MD.)
+<img alt="switch" title="switch" src=".github/Aula.06_switch.png" width="200px" />
 
 
 ## :eyeglasses: HTML
