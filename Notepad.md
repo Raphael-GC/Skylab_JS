@@ -26,6 +26,7 @@
 </p>
 
 <br>
+
 ## :bulb: A Ideia
 
 Decidi registrar todas as minhas dúvidas e lições aprendidas durante o curso, no intuito de mensurar a curva de aprendizado obtida.
@@ -71,13 +72,13 @@ ________________________________________________________________________________
 - If, Else If e Else
 
 <p align="center">
-  <img alt="if_else-if_else" src=".github/Aula.06_if_else-if_else.png"/>
+  <img alt="if_else-if_else" src=".github/examples/Aula.06_if_else-if_else.png"/>
 </p>
 
 - Switch
 
 <p align="center">
-  <img alt="switch" src=".github/Aula.06_switch.png"/>
+  <img alt="switch" src=".github/examples/Aula.06_switch.png"/>
 </p>
 
 ## :eyeglasses: HTML
