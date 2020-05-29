@@ -108,8 +108,35 @@ ________________________________________________________________________________
 ```sh
 # Mais um exemplo de redução da verbosidade do código.
 ```
-![Example 3](.github/examples/Aula.08_condicao_ternaria.png)
+![Example 5](.github/examples/Aula.08_condicao_ternaria.png)
 
+**Aula 09 - Estruturas de Repetição**:
+
+- For
+```sh
+# Melhor utilizado quando se sabe quantas vezes se deseja repetir aquele bloco de código.
+```
+![Example 1](.github/examples/Aula.09_for.png)
+
+- While
+```sh
+# Melhor utilizado quando NÃO se sabe quantas vezes aquele bloco de código irá se repetir.
+```
+![Example 2](.github/examples/Aula.09_while.png)
+
+**Aula 10 - Intervalo e Timeout**:
+
+- Interval
+```sh
+# Repete a função a cada período de tempo, passados como parâmetros respectivamente.
+```
+![Example 1](.github/examples/Aula.10_interval.png)
+
+- Timeout
+```sh
+# Atrasa a execução da função de acordo com período de tempo informado.
+```
+![Example 2](.github/examples/Aula.10_timeout.png)
 
 ## :eyeglasses: HTML
 
