@@ -65,13 +65,14 @@ ________________________________________________________________________________
 ```
 **Aula 06 - Condicionais**:
 
-- If, Else If and Else
+- If, Else If e Else
 <h5 align="left">
-    <img alt="if_else if_else" title="#if_else if_else" src=".github/Aula.06(if_else if_else).png" width="300px" />
+    ![if_else if_else](.github/Aula.06(if_else if_else).png)
 </h5>
+
 - Switch
 <h5 align="left">
-    <img alt="switch" title="#switch" src=".github/Aula.06(switch).png" width="300px" />
+    ![switch](.github/Aula.06(switch).png)
 </h5>
 
 ## :eyeglasses: HTML
