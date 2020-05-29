@@ -26,13 +26,6 @@
 </p>
 
 <br>
-- If, Else If e Else
-<img alt="if_else-if_else" title="if_else-if_else" src=".github/Aula.06_if_else-if_else.png" width="200px"/>
-
-- Switch
-<img alt="switch" title="switch" src=".github/Aula.06_switch.png" width="200px"/>
-
-<br>
 ## :bulb: A Ideia
 
 Decidi registrar todas as minhas dúvidas e lições aprendidas durante o curso, no intuito de mensurar a curva de aprendizado obtida.
@@ -72,18 +65,19 @@ ________________________________________________________________________________
 # Lição N1: Em JS usamos '===' quando além de comparar o conteúdo de uma variável, compararmos o tipo.
  if (1 === "1")
 # Neste exemplo o resultado seria: 'false' 
-
 ```
 **Aula 06 - Condicionais**:
 
 - If, Else If e Else
+
 <p align="center">
-  <img alt="if_else-if_else" title="if_else-if_else" src=".github/Aula.06_if_else-if_else.png" width="200px"/>
+  <img alt="if_else-if_else" src=".github/Aula.06_if_else-if_else.png"/>
 </p>
 
 - Switch
+
 <p align="center">
-  <img alt="switch" title="switch" src=".github/Aula.06_switch.png" width="200px"/>
+  <img alt="switch" src=".github/Aula.06_switch.png"/>
 </p>
 
 ## :eyeglasses: HTML
