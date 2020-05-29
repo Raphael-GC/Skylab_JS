@@ -74,7 +74,7 @@ ________________________________________________________________________________
 <img alt="if_else-if_else" title="if_else-if_else" src=".github/Aula.06_if_else-if_else.png" width="200px"/>
 
 - Switch
-<img alt="switch" title="switch" src=".github/Aula.06_switch.png" width="200px" />
+<img alt="switch" title="switch" src=".github/Aula.06_switch.png" width="200px"/>
 
 
 ## :eyeglasses: HTML
@@ -90,5 +90,9 @@ $
 # 
 $
 ```
+- If, Else If e Else
+<img alt="if_else-if_else" title="if_else-if_else" src=".github/Aula.06_if_else-if_else.png" width="200px"/>
 
+- Switch
+<img alt="switch" title="switch" src=".github/Aula.06_switch.png" width="200px"/>
 ---
