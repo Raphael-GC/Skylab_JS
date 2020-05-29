@@ -48,13 +48,19 @@ $ git push -u origin master
 ```bash
 # ERRO.1 : "Uncaught SyntaxError: Invalid shorthand property initializer"
 # Esse foi exibido no console do navegador ao testar arquivo index.html 
-# Lição: Em JS usamos ':' e não '=' para atribuir valor à uma propriedade de objeto; e finalizamos a linha com ',' ao #invés de  ';' 
+# Lição E1: Em JS usamos ':' e não '=' para atribuir valor à uma propriedade de objeto; e finalizamos a linha com ',' ao #invés de  ';' 
  var aluno = {
       nome : 'Raphael',
       idade : 28,
       peso : 72.5,
       humano : true,
  };
+
+<br>
+
+# Lição N1: Em JS usamos '===' quando além de comparar o conteúdo de uma variável, queremos que seja comparado também o seu tipo.
+ if (1 === "1")  false 
+
 ```
 
 ## :eyeglasses: HTML
