@@ -31,7 +31,7 @@
 
 Decidi registrar todas as minhas dúvidas e lições aprendidas durante o curso, no intuito de mensurar a curva de aprendizado obtida.
 
-## :balloon: Git
+## :balloon: Git e Markdown
 
 ```bash
 # Como criar e subir um repositório para o github pelo terminal.
@@ -42,6 +42,11 @@ $ git commit -m "Primeiro commit"
 $ git remote add origin git@github.com:Raphael-GC/Skylab_JS.git
 $ git push -u origin master
 ```
+```bash
+# Comentários em MD.
+[//]: <> (Exemplo de como comentar em Markdown)
+```
+
 
 ## :gear: Javascript
 
@@ -66,10 +71,18 @@ ________________________________________________________________________________
 **Aula 06 - Condicionais**:
 
 - If, Else If e Else
-![if_else-if_else](.github/Aula.06_if_else-if_else.png)
+<h2 align="center">
+    <img alt="if_else-if_else" title="if_else-if_else" src=".github/Aula.06_if_else-if_else.png" width="200px" />
+</h2>
+
+[//]: <> (![if_else-if_else](.github/Aula.06_if_else-if_else.png) -> Este é o método Pandoc de inserir imagens em MD.)
 
 - Switch
-![switch](.github/Aula.06_switch.png)
+<h2 align="center">
+    <img alt="switch" title="switch" src=".github/Aula.06_switch.png" width="200px" />
+</h2>
+
+[//]: <> (![switch](.github/Aula.06_switch.png) -> Este é o método Pandoc de inserir imagens em MD.)
 
 
 ## :eyeglasses: HTML
