@@ -70,9 +70,12 @@ ________________________________________________________________________________
 **Aula 06 - Condicionais**:
 
 - If, Else If e Else
+
 ![Example 1](.github/examples/Aula.06_if_else-if_else.png)
 
+
 - Switch
+
 ![Example 2](.github/examples/Aula.06_switch.png)
 
 **Aula 07 - Operadores Lógicos**:
