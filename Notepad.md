@@ -47,7 +47,7 @@ $ git push -u origin master
 
 ```bash
 # ERRO.1 : "Uncaught SyntaxError: Invalid shorthand property initializer"
-# Esse foi exibido no console do navegador ao testar arquivo index.html 
+# Esse erro foi exibido no console do navegador ao testar arquivo index.html 
 # Lição E1: Em JS usamos ':' e não '=' para atribuir valor à uma propriedade de objeto; e finalizamos a linha com ',' ao #invés de  ';' 
  var aluno = {
       nome : 'Raphael',
@@ -56,12 +56,23 @@ $ git push -u origin master
       humano : true,
  };
 
-<br>
+_______________________________________________________________________________________________________________________________________
 
-# Lição N1: Em JS usamos '===' quando além de comparar o conteúdo de uma variável, queremos que seja comparado também o seu tipo.
- if (1 === "1")  false 
+# Lição N1: Em JS usamos '===' quando além de comparar o conteúdo de uma variável, compararmos o tipo.
+ if (1 === "1")
+# Neste exemplo o resultado seria: 'false' 
 
 ```
+**Aula 06 - Condicionais**:
+
+- If, Else If and Else
+<h5 align="left">
+    <img alt="if_else if_else" title="#if_else if_else" src=".github/Aula.06(if_else if_else).png" width="300px" />
+</h5>
+- Switch
+<h5 align="left">
+    <img alt="switch" title="#switch" src=".github/Aula.06(switch).png" width="300px" />
+</h5>
 
 ## :eyeglasses: HTML
 
