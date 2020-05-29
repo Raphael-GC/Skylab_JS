@@ -26,7 +26,13 @@
 </p>
 
 <br>
+- If, Else If e Else
+<img alt="if_else-if_else" title="if_else-if_else" src=".github/Aula.06_if_else-if_else.png" width="200px"/>
 
+- Switch
+<img alt="switch" title="switch" src=".github/Aula.06_switch.png" width="200px"/>
+
+<br>
 ## :bulb: A Ideia
 
 Decidi registrar todas as minhas dúvidas e lições aprendidas durante o curso, no intuito de mensurar a curva de aprendizado obtida.
@@ -71,11 +77,14 @@ ________________________________________________________________________________
 **Aula 06 - Condicionais**:
 
 - If, Else If e Else
-<img alt="if_else-if_else" title="if_else-if_else" src=".github/Aula.06_if_else-if_else.png" width="200px"/>
+<p align="center">
+  <img alt="if_else-if_else" title="if_else-if_else" src=".github/Aula.06_if_else-if_else.png" width="200px"/>
+</p>
 
 - Switch
-<img alt="switch" title="switch" src=".github/Aula.06_switch.png" width="200px"/>
-
+<p align="center">
+  <img alt="switch" title="switch" src=".github/Aula.06_switch.png" width="200px"/>
+</p>
 
 ## :eyeglasses: HTML
 
@@ -90,9 +99,4 @@ $
 # 
 $
 ```
-- If, Else If e Else
-<img alt="if_else-if_else" title="if_else-if_else" src=".github/Aula.06_if_else-if_else.png" width="200px"/>
-
-- Switch
-<img alt="switch" title="switch" src=".github/Aula.06_switch.png" width="200px"/>
 ---
