@@ -71,15 +71,13 @@ ________________________________________________________________________________
 
 - If, Else If e Else
 
-<p align="center">
-  <img alt="if_else-if_else" src=".github/examples/Aula.06_if_else-if_else.png"/>
-</p>
+![Example 1](https://raw.githubusercontent.com/Raphael-GC/Skylab_JS/master/examples/Aula.06_if_else-if_else.png)
+
 
 - Switch
 
-<p align="center">
-  <img alt="switch" src=".github/examples/Aula.06_switch.png"/>
-</p>
+![Example 1](https://raw.githubusercontent.com/Raphael-GC/Skylab_JS/master/examples/Aula.06_switch.png)
+
 
 ## :eyeglasses: HTML
 
