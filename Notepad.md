@@ -50,7 +50,7 @@ $ git push -u origin master
 
 ## :gear: Javascript
 
-```bash
+```javascript
 # ERRO.1 : "Uncaught SyntaxError: Invalid shorthand property initializer"
 # Esse erro foi exibido no console do navegador ao testar arquivo index.html 
 # Lição E1: Em JS usamos ':' e não '=' para atribuir valor à uma propriedade de objeto; e finalizamos a linha com ',' ao #invés de  ';' 
@@ -137,6 +137,25 @@ ________________________________________________________________________________
 # Atrasa a execução da função de acordo com período de tempo informado.
 ```
 ![Example 2](.github/examples/Aula.10_timeout.png)
+
+**Exercícios (somente respostas)**: [Questões](.github/examples/Exercícios.pdf)
+
+- 1º exercício
+```javascript
+var endereco = {
+    rua: "Rua dos pinheiros",
+    numero: 1293,
+    bairro: "Centro",
+    cidade: "São Paulo",
+    uf: "SP"
+};
+            
+function exibicao() {
+    console.log('O usuário mora em ' + endereco.cidade + ' / ' + endereco.uf + ', no bairro ' + endereco.bairro + ', na rua ' + '"' + endereco.rua + '" ' + 'com o n° ' + endereco.numero + '.');
+};
+
+exibicao();
+```
 
 ## :eyeglasses: HTML
 
