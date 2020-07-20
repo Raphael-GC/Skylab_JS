@@ -159,9 +159,9 @@ exibicao();
 
 ```javascript
 # Lição N2: Em JS, chamamos Template Strings, quando o texto esta envolvido por acentos graves, ao inves de aspas simples ou duplas. Se distingue das demais por permitir a inclusao de variaveis dentro de seu escopo.
-const nome = "Rapha"
-const nome2 = 'Jose ${nome}'
-const nome3 = `Samuel e ${nome}`  //--> Template String
+const nome = "Rapha";
+const nome2 = 'Jose ${nome}';
+const nome3 = `Samuel e ${nome}`;  //--> Template String
 
 console.log(nome3)
 ```
