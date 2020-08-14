@@ -29,7 +29,7 @@
 
 ## :bulb: A Ideia
 
-Decidi registrar todas as minhas dúvidas e lições aprendidas durante o curso, no intuito de mensurar a curva de aprendizado obtida.
+Decidi registrar todas as minhas dúvidas e lições aprendidas durante minha jornada nos cursos da Rocketseat, no intuito de mensurar a curva de aprendizado obtida. As aulas mencionadas fazem parte da trilha Starter, que é o curso gratuito da Rocketseat. Já as lições registradas neste arquivo, são do meu aprendizado como um todo, tanto na trilha Starter quanto na trilha LaunchBase. Dentro de cada linguagem, o conteúdo é registrado de forma cronológica ao meu aprendizado e não especificamente na ordem em que é apresentado.
 
 ## :balloon: Git e Markdown
 
@@ -60,13 +60,15 @@ $ git push -u origin master
       peso : 72.5,
       humano : true,
  };
-
-_______________________________________________________________________________________________________________________________________
-
-# Lição N1: Em JS usamos '===' quando além de comparar o valor de uma variável, compararmos o tipo.
- if (1 === "1")
-# Neste exemplo o resultado seria: 'false' 
 ```
+
+# :book: Lição 
+N1: Em JS usamos '===' quando além de comparar o valor de uma variável, compararmos o tipo.
+```javascript
+ if (1 === "1")
+```
+Neste exemplo o resultado seria: 'false'
+
 **Aula 06 - Condicionais**:
 
 - If, Else If e Else
@@ -157,8 +159,10 @@ function exibicao() {
 exibicao();
 ```
 
+
+# :book: Lição 
+N2: Em JS, chamamos Template Strings, quando o texto esta envolvido por acentos graves, ao inves de aspas simples ou duplas. Se distingue das demais por permitir a inclusao de variaveis dentro de seu escopo.
 ```javascript
-# Lição N2: Em JS, chamamos Template Strings, quando o texto esta envolvido por acentos graves, ao inves de aspas simples ou duplas. Se distingue das demais por permitir a inclusao de variaveis dentro de seu escopo.
 const nome = "Rapha"
 const nome2 = 'Jose'
 const nome3 = `Samuel e ${nome}`  //--> Template String
@@ -166,6 +170,17 @@ const nome3 = `Samuel e ${nome}`  //--> Template String
 console.log(nome3)
 ```
 
+# :book: Lição
+N3: Hoje aprendi uma nova maneira de escrever a estrutura de repetição For. No exemplo abaixo, ele está sendo utilizado para percorrer um array de alunos. Onde, de forma ele inteligente, ele repetirá a verificação de acordo com o tamanho do array passado como parâmetro. E também, conheci o console.table, que é uma forma muito mais apresentável de exibir o resultado dessa função do exemplo.
+```javascript
+function marcarComoReprovado(alunos) {
+    for (let aluno of alunos) {
+        aluno.reprovado = false;
+        if (aluno.nota < 5) {aluno.reprovado = true}
+    }
+    console.table(alunos)
+}
+```
 ## :eyeglasses: HTML
 
 ```bash
