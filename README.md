@@ -29,7 +29,7 @@
 
 ## :bulb: A Ideia
 
-Decidi registrar todas as minhas dúvidas e lições aprendidas durante minha jornada nos cursos da Rocketseat, no intuito de mensurar a curva de aprendizado obtida. As aulas mencionadas fazem parte da trilha Starter, que é o curso gratuito da Rocketseat. Já as lições registradas neste arquivo, são do meu aprendizado como um todo, tanto na trilha Starter quanto na trilha LaunchBase. Dentro de cada linguagem, o conteúdo é registrado de forma cronológica ao meu aprendizado e não especificamente na ordem em que é apresentado.
+> Decidi registrar todas as minhas dúvidas e lições aprendidas durante minha jornada nos cursos da Rocketseat, no intuito de mensurar a curva de aprendizado obtida. As aulas mencionadas fazem parte da trilha Starter, que é o curso gratuito da Rocketseat. Já as lições registradas neste arquivo, são do meu aprendizado como um todo, tanto na trilha Starter quanto na trilha LaunchBase. Dentro de cada linguagem, o conteúdo é registrado de forma cronológica ao meu aprendizado e não especificamente na ordem em que é apresentado.
 
 ## :balloon: Git e Markdown
 
@@ -44,18 +44,18 @@ $ git push -u origin master
 ```
 
 Comentários em MarkDown:
-```markdown
+```
 [//]: <> (Aqui vai o comentário)
 ```
 
 
 ## :gear: Javascript
 
-### :warning: ERRO
-N1 : "Uncaught SyntaxError: Invalid shorthand property initializer"
-Esse erro foi exibido no console do navegador ao testar arquivo index.html 
+#### :warning: Erro
+N1 : "_Uncaught SyntaxError: Invalid shorthand property initializer_"
+Esse erro foi exibido no console do navegador ao testar arquivo **index.html**.
 
-:seedling: Em JS usamos ':' e não '=' para atribuir valor à uma propriedade de objeto; e finalizamos a linha com ',' ao #invés de  ';' 
+:seedling: Em JS usamos '**:**' e não '**=**' para atribuir valor à uma propriedade de objeto; e finalizamos a linha com '**,**' ao invés de  '**;**' .
 ```javascript
  var aluno = {
       nome : 'Raphael',
@@ -65,12 +65,12 @@ Esse erro foi exibido no console do navegador ao testar arquivo index.html
  };
 ```
 
-### :book: Lição 
-N1: Em JS usamos '===' quando além de comparar o valor de uma variável, compararmos o tipo.
+#### :book: Lição 
+N1: Em JS usamos '**===**' quando além de comparar o valor de uma variável, compararmos o tipo.
 ```javascript
  if (1 === "1")
 ```
-Neste exemplo o resultado seria: 'false'
+Neste exemplo o resultado seria: **false**
 
 **Aula 06 - Condicionais**:
 
@@ -85,67 +85,67 @@ Neste exemplo o resultado seria: 'false'
 
 **Aula 07 - Operadores Lógicos**:
 
-- And
-```sh
-# Verifica se há igualdade em todas as informações propostas. Usamos o '&&' para representá-lo.
-```
+- **And**
+
+Verifica se há igualdade em todas as informações propostas. Usamos o '**&&**' para representá-lo.
+
 ![Example 1](.github/examples/Aula.07_and.png)
 
-- Or
-```sh
-# Verifica se há igualdade em alguma das informações propostas. Usamos o '||' para representá-lo.
-```
+- **Or**
+
+Verifica se há igualdade em alguma das informações propostas. Usamos o '**||**' para representá-lo.
+
 ![Example 2](.github/examples/Aula.07_or.png)
 
-- Not
-```sh
-# Verifica se há uma desigualdade nas informações propostas. Usamos o '!==' para representá-lo.
-```
+- **Not**
+
+Verifica se há uma desigualdade nas informações propostas. Usamos o '**!==**' para representá-lo.
+
 ![Example 3](.github/examples/Aula.07_not.png)
 
-- Enxugando Ifs desnecessários
-```sh
-# Desta forma, atribuimos uma condição como valor para uma variável, diminuindo a verbosidade do código.
-```
+- **Enxugando Ifs desnecessários**
+
+Desta forma, atribuimos uma condição como valor para uma variável, diminuindo a verbosidade do código.
+
 ![Example 4](.github/examples/Aula.07_enxugando_ifs.png)
 
-- Condição Ternária
-```sh
-# Mais um exemplo de redução da verbosidade do código.
-```
+- **Condição Ternária**
+
+Mais um exemplo de redução da verbosidade do código.
+
 ![Example 5](.github/examples/Aula.08_condicao_ternaria.png)
 
 **Aula 09 - Estruturas de Repetição**:
 
-- For
-```sh
-# Melhor utilizado quando se sabe quantas vezes se deseja repetir aquele bloco de código.
-```
+- **For**
+
+Melhor utilizado quando se sabe quantas vezes se deseja repetir aquele bloco de código.
+
 ![Example 1](.github/examples/Aula.09_for.png)
 
-- While
-```sh
-# Melhor utilizado quando NÃO se sabe quantas vezes aquele bloco de código irá se repetir.
-```
+- **While**
+
+Melhor utilizado quando NÃO se sabe quantas vezes aquele bloco de código irá se repetir.
+
 ![Example 2](.github/examples/Aula.09_while.png)
 
 **Aula 10 - Intervalo e Timeout**:
 
-- Interval
-```sh
-# Repete a função a cada período de tempo, passados como parâmetros respectivamente.
-```
+- **Interval**
+
+Repete a função a cada período de tempo, passados como parâmetros respectivamente.
+
 ![Example 1](.github/examples/Aula.10_interval.png)
 
-- Timeout
-```sh
-# Atrasa a execução da função de acordo com período de tempo informado.
-```
+- **Timeout**
+
+Atrasa a execução da função de acordo com período de tempo informado.
+
 ![Example 2](.github/examples/Aula.10_timeout.png)
 
 **Exercícios (somente respostas)**: [Questões](.github/examples/Exercícios.pdf)
 
-- 1º exercício
+- 1º exercício (Eu ainda não conhecia template string. rsrs)
 ```javascript
 var endereco = {
     rua: "Rua dos pinheiros",
@@ -163,8 +163,8 @@ exibicao();
 ```
 
 
-### :book: Lição 
-N2: Em JS, chamamos Template Strings, quando o texto esta envolvido por acentos graves, ao inves de aspas simples ou duplas. Se distingue das demais por permitir a inclusao de variaveis dentro de seu escopo.
+#### :book: Lição 
+N2: Em JS, chamamos **Template Strings**, quando o texto esta envolvido por acentos graves, ao inves de aspas simples ou duplas. Se distingue das demais por permitir a inclusao de variaveis dentro de seu escopo.
 ```javascript
 const nome = "Rapha"
 const nome2 = 'Jose'
@@ -173,8 +173,8 @@ const nome3 = `Samuel e ${nome}`  //--> Template String
 console.log(nome3)
 ```
 
-### :book: Lição
-N3: Hoje aprendi uma nova maneira de escrever a estrutura de repetição For. No exemplo abaixo, ele está sendo utilizado para percorrer um array de alunos. Onde, de forma ele inteligente, ele repetirá a verificação de acordo com o tamanho do array passado como parâmetro. E também, conheci o console.table, que é uma forma muito mais apresentável de exibir o resultado dessa função do exemplo.
+#### :book: Lição
+N3: Hoje aprendi uma nova maneira de escrever a estrutura de repetição **for**. No exemplo abaixo, ele está sendo utilizado para percorrer um array de alunos. Onde, de forma ele inteligente, ele repetirá a verificação de acordo com o tamanho do array passado como parâmetro. E também, conheci o console.table, que é uma forma muito mais apresentável de exibir o resultado dessa função do exemplo.
 ```javascript
 function marcarComoReprovado(alunos) {
     for (let aluno of alunos) {
