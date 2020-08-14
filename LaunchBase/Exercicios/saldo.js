@@ -16,16 +16,25 @@ const usuarios = [
     }
 ];
 
-let msg = "";
-function calcSaldo(receitas) {
+function calcSaldo(receitas, despesas) {
     let mais = 0;
     let menos = 0;
+    let saldoIn = 0;
     for (let i = 0; i < receitas.length; i++) {
         mais = mais + receitas[i];
     }
-    return mais;
+    for (let i = 0; i < despesas.length; i++) {
+        menos = menos + despesas[i];
+    }
+    saldoIn = mais - menos;
+    saldoIn = parseFloat(saldoIn.toFixed(2)); //Arredondamento
+    return saldoIn;
 } 
-msg = calcSaldo(usuarios[1]);
-console.log(msg);
 
-// exercicio ainda esta incompleto !
+let saldo = 0;
+let polar = "";
+for (let i = 0; i < usuarios.length; i++) {
+    saldo = calcSaldo(usuarios[i].receitas, usuarios[i].despesas);
+    if (saldo >= 0) polar = "POSITIVO"; else polar = "NEGATIVO";
+    console.log(`${usuarios[i].nome} possui saldo ${polar} de ${saldo}`)
+};
