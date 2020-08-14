@@ -33,8 +33,8 @@ Decidi registrar todas as minhas dúvidas e lições aprendidas durante minha jo
 
 ## :balloon: Git e Markdown
 
+Como criar e subir um repositório para o github pelo terminal.
 ```bash
-# Como criar e subir um repositório para o github pelo terminal.
 $ echo "# Skylab_JS" >> README.md
 $ git init
 $ git add README.md
@@ -42,18 +42,21 @@ $ git commit -m "Primeiro commit"
 $ git remote add origin git@github.com:Raphael-GC/Skylab_JS.git
 $ git push -u origin master
 ```
-```bash
-# Comentários em MD.
-[//]: <> (Exemplo de como comentar em Markdown)
+
+Comentários em MarkDown:
+```markdown
+[//]: <> (Aqui vai o comentário)
 ```
 
 
 ## :gear: Javascript
 
+### :warning: ERRO
+N1 : "Uncaught SyntaxError: Invalid shorthand property initializer"
+Esse erro foi exibido no console do navegador ao testar arquivo index.html 
+
+:seedling: Em JS usamos ':' e não '=' para atribuir valor à uma propriedade de objeto; e finalizamos a linha com ',' ao #invés de  ';' 
 ```javascript
-# ERRO.1 : "Uncaught SyntaxError: Invalid shorthand property initializer"
-# Esse erro foi exibido no console do navegador ao testar arquivo index.html 
-# Lição E1: Em JS usamos ':' e não '=' para atribuir valor à uma propriedade de objeto; e finalizamos a linha com ',' ao #invés de  ';' 
  var aluno = {
       nome : 'Raphael',
       idade : 28,
@@ -62,7 +65,7 @@ $ git push -u origin master
  };
 ```
 
-# :book: Lição 
+### :book: Lição 
 N1: Em JS usamos '===' quando além de comparar o valor de uma variável, compararmos o tipo.
 ```javascript
  if (1 === "1")
@@ -160,7 +163,7 @@ exibicao();
 ```
 
 
-# :book: Lição 
+### :book: Lição 
 N2: Em JS, chamamos Template Strings, quando o texto esta envolvido por acentos graves, ao inves de aspas simples ou duplas. Se distingue das demais por permitir a inclusao de variaveis dentro de seu escopo.
 ```javascript
 const nome = "Rapha"
@@ -170,7 +173,7 @@ const nome3 = `Samuel e ${nome}`  //--> Template String
 console.log(nome3)
 ```
 
-# :book: Lição
+### :book: Lição
 N3: Hoje aprendi uma nova maneira de escrever a estrutura de repetição For. No exemplo abaixo, ele está sendo utilizado para percorrer um array de alunos. Onde, de forma ele inteligente, ele repetirá a verificação de acordo com o tamanho do array passado como parâmetro. E também, conheci o console.table, que é uma forma muito mais apresentável de exibir o resultado dessa função do exemplo.
 ```javascript
 function marcarComoReprovado(alunos) {
