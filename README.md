@@ -184,6 +184,17 @@ function marcarComoReprovado(alunos) {
     console.table(alunos)
 }
 ```
+#### :book: Lição
+N4: Diferenças entre VAR e LET - Javascript
+
+➜ DECLARAÇÃO:
+O tipo VAR permite que a variável seja redeclarada mais de uma vez. Já as do tipo LET não permitem essa redeclaração (de forma global), apenas a mudança do seu valor.
+
+➜ ESCOPO:
+• LET: Tem escopo de bloco {...}, ou seja, se uma variável é declarada com o LET entre chaves, seu escopo será apenas esse bloco.
+
+• VAR: Quando declarada em uma função seu valor só pode ser acessado dentro do escopo dessa função, já se for declarada no programa principal, ela terá escopo global.
+
 ## :eyeglasses: HTML
 
 ```bash
