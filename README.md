@@ -195,6 +195,12 @@ O tipo VAR permite que a variável seja redeclarada mais de uma vez. Já as do t
 
 • VAR: Quando declarada em uma função seu valor só pode ser acessado dentro do escopo dessa função, já se for declarada no programa principal, ela terá escopo global.
 
+#### :book: Lição
+N5: Conceito de Function e Method- Javascript
+```javascript
+Chamamos 'Method' toda Function atrelada a um Object. Por exemplo, em console.log(), console é o objeto, log é uma funcionalidade atribuída à este objeto, ou seja, um método.
+```
+
 ## :eyeglasses: HTML
 
 ```bash
