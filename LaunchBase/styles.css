@@ -1,0 +1,98 @@
+@import "https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Oooh+Baby&family=Parisienne&family=Roboto:wght@400;700&family=Satisfy&family=Source+Sans+Pro:wght@400;700&display=swap";
+
+:root {
+    --color-green: #50fa7b;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #282a36;
+    font-family: 'Source Sans', 'sans-serif', 'Roboto';
+    color: white;
+}
+
+header {
+    padding: 32px;
+    border-bottom: 1px solid #333;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 16px;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: var(--color-green);
+    transition: color 200ms;
+}
+
+#wrapper-sobre,
+#wrapper {
+    text-align: center;
+    padding: 32px
+}
+
+#wrapper img {
+    border-radius: 400px 50px 10px;
+    border: 5px solid var(--color-green);
+    margin-bottom: 32px;
+    height: 250px;
+}
+
+#wrapper-sobre img{
+    border-radius: 150px 150px;
+    border: 4px solid var(--color-green);
+    padding: 32px;
+    margin-bottom: 32px;
+    height: 100px;
+}
+
+#wrapper-sobre h1,
+#wrapper h1 {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+
+}
+
+#logowrapper-sobre h2,
+#wrapper h2 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    margin-top: 8px;
+    opacity: 0.8;
+}
+
+#wrapper-sobre h2 a,
+#wrapper h2 a {
+    color: var(--color-green);
+    text-decoration: none;
+}
+
+#wrapper-sobre p,
+#wrapper p {
+    max-width: 500px;
+    margin: 0 auto; /*auto foi o pulo do gato pra centralizar o pagode. rs */
+    font-size: 24px;
+    line-height: 34px;
+}
+
+#links-footer a {
+    text-decoration: underline;
+}
+
