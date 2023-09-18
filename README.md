@@ -209,9 +209,8 @@ $
 ```
 
 ## :art: CSS
-
+N1: Pesos e Ordem de prioridade entre seletores
 ```bash
-# 
-$
+No CSS é natural que organizemos alguns seletores de elementos de forma cascateada. Com isso, pode ocorrer de ficarmos em dúvida sobre qual instrução prevalecerá sobre a outra. Pois mesmo que estejam aninhadas, não é tão óbvio que a instrução passada ao seletor pai prevaleça sobre o seletor filho, devido a cada elemento possuir um peso padrão já atribuído. Para sabermos o peso de cada elemento basta posicionarmos o mouse em cima do mesmo que irá aparecer algo neste padrão (x,y,z), contendo zero ou um no lugar das letras. Onde 001 é o menor valor e 111 o maior.
 ```
 ---
