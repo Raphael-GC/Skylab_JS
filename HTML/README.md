@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="MyNotepadLogo" title="#MyNotepad" src=".github/mynotepad.svg" width="200px" />
+    <img alt="MyNotepadLogo" title="#MyNotepad" src="[.github/mynotepad.svg](https://github.com/Raphael-GC/Skylab_JS/blob/main/.github/mynotepad.svg)" width="200px" />
 </h1>
 
 <h4 align="center"> 
@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <a href="#eyeglasses-html">HTML</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#eyeglasses-html">HTML</a>
 </p>
 
 <br>
