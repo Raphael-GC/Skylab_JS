@@ -33,3 +33,7 @@ Hoje aprendi a diferença entre setar um display block e um display inline em um
 E também a diferença entre margin e padding. O margin é o espaço entre um elemento e seus vizinhos, enquanto o padding é o espaço entre o conteúdo do elemento e sua a borda. 
 
 ---
+
+N2: Inspecionando meu CSS pelo DevTools
+
+No DevTools é possível verificar no resultado final de nosso projeto, ou seja, naquilo que ficou disponibilizado online, o que é proveniente de nosso próprio código (<nomedoarquivocss>?) e aquilo que foi inserido pelo browser (agente de usuário). 
