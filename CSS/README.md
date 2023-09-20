@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="MyNotepadLogo" title="#MyNotepad" src=".github/mynotepad.svg" width="200px" />
+    <img alt="MyNotepadLogo" title="#MyNotepad" src="https://github.com/Raphael-GC/Skylab_JS/blob/main/.github/mynotepad.svg" width="200px" />
 </h1>
 
 <h4 align="center"> 
